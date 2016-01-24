@@ -4,13 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scrape": "node scrapeRecipes.js",
+    "filter": "node filterRecipes.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "cheerio": "^0.19.0",
     "express": "^4.13.4",
-    "request": "^2.67.0"
+    "request": "^2.67.0",
+    "underscore.string": "^3.2.3"
   }
 }
